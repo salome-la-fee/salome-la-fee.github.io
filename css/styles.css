@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .flex-container{
+    background: black;
     display: flex;
     flex-wrap: wrap;
 
@@ -288,6 +289,7 @@ main.about {
 
 .about .info .contact-info .title{
     margin-bottom: 1rem;
+    color:#dcb2cf; 
 }
 
 @media (max-width: 800px){
@@ -302,6 +304,12 @@ main.about {
     }
     
     .about .info  .contact-info{
+        text-align: center;
+        width: 100%;
+        font-size: 1.15rem;
+    }
+    .about .info  .contact-info:not(:first-child){
+        margin-top: 1rem;
         width: 100%;
         font-size: 1.15rem;
     }
