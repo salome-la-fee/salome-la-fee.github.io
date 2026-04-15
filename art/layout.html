@@ -25,13 +25,16 @@
             height: 100%;
             width: 100%;
         }
+        .work-detail {
+            margin-top: 0;
+        }
     </style>
 </head>
 
 
 <body>
     <header>
-        <div class="flex-container align-items-center">
+        <div class="flex-container align-items-center layout-wrapper">
             <div class="logo">
                 <a href="/index.html"><img src="../img/salome-la-fee.svg" alt="salome la fee"></a>
             </div>
@@ -50,7 +53,7 @@
         </div>       
     </header>   
     
-    <iframe id="frameContainer" style="border: none;height: 100%; width: 100%;">
+    <iframe id="frameContainer" style="border: none;height: calc(100% - 78px); width: 100%; margin-top: 78px;">
     </iframe>
 
 </body>
